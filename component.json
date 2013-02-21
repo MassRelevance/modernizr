@@ -3,5 +3,10 @@
   "version": "2.5.3",
   "main": "./modernizr.js",
   "dependencies": {
-  }
+  },
+  "ignore": [
+    "feature-detects",
+    "media",
+    "test"
+  ]
 }
