@@ -1,6 +1,6 @@
 {
   "name": "modernizr",
-  "version": "2.6.2-mr",
+  "version": "2.6.3-mr",
   "main": "./modernizr.js",
   "dependencies": { },
   "ignore": [
