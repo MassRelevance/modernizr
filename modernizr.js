@@ -610,6 +610,11 @@ window.Modernizr = (function( window, document, undefined ) {
         return testPropsAll('animationName');
     };
 
+    tests['cssfilters'] = function () {
+      var el = document.createElement('div');
+      el.style.cssText = prefixes.join('filter' + ':blur(2px); ');
+      return !!el.style.length && ((document.documentMode === undefined || document.documentMode > 9));
+    };
 
     tests['csscolumns'] = function() {
         return testPropsAll('columnCount');
